@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <!-- Element with id app -->
+    <div id="app"></div>
+
+    <!-- Js Code to fill app div -->
+    <script type="text/javascript">
+        // access app id
+        var app = document.getElementById('app');
+
+        // add text inside the app
+        app.innerHTML = 'Hello World';
+
+        // add css to app id
+        app.style.color = '#fafafa';
+
+        // make document background color dark
+        document.body.style.backgroundColor = '#1a1a1a';
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "Praktik Chapter 4 Topic 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "myapp"
+  ],
+  "author": "Tsucie",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,0 +1,162 @@
+@media screen and (max-width: 600px) {
+  .hero-text {
+    padding: 3rem !important;
+  }
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+section.container {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.bg-f1f3ff {
+  background-color: #f1f3ff;
+}
+
+.text-align-justify {
+  text-align: justify;
+  width: 90%;
+}
+
+.font-bold {
+  font-weight: 600;
+}
+
+.btn-green {
+  background-color: #5cb85f;
+  color: white !important;
+  font-weight: 700;
+  font-size: 14px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  padding: 8px 12px 8px 12px !important;
+}
+
+.h-bold {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+}
+
+.hero-text {
+  padding: 5rem 0 0 6.5rem;
+}
+
+.flat-list {
+  padding-left: 0px !important;
+  list-style: none;
+}
+.list-text {
+  font-size: 14px !important;
+  padding-left: 1rem;
+}
+
+.card {
+  min-height: 12rem;
+}
+
+.testimoni-card {
+  padding: 3rem 2rem;
+  background-color: #f1f3ff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  min-height: 15rem;
+}
+.testimoni-card > .profile-photo > img {
+  width: 5rem !important;
+  height: 5rem;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.card-content > .rating {
+  display: flex;
+  gap: 3px;
+}
+.card-content > .rating > img {
+  width: 1.2rem !important;
+}
+.card-content > .card-desc {
+  font-size: 14px !important;
+}
+.card-content > .card-user {
+  font-weight: bold;
+}
+
+.btn-testi-nav > button {
+  background-color: #fff;
+  border-radius: 100%;
+  border: 1px solid #ccc;
+}
+
+.btn-testi-nav > button:hover {
+  border-color: #5cb85f;
+  background-color: #5cb85f;
+}
+
+.btn-testi-nav > button:hover > svg > path {
+  stroke: #fff;
+}
+
+.banner-card {
+  color: white;
+  background: #0d28a6 !important;
+  border-radius: 13px !important;
+}
+
+#prev-btn {
+  padding: 4px 8px 5.5px 7px;
+}
+
+#next-btn {
+  padding: 4px 7px 5.5px 8px;
+}
+
+.faq-title {
+  font-weight: bold;
+  font-size: 26px;
+  margin-bottom: 1rem;
+}
+
+.accordion-item {
+  border: 1px solid #ccc !important;
+  border-top-right-radius: 5px !important;
+  border-top-left-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+  overflow: hidden;
+}
+
+footer .connect-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d28a6;
+  width: 38px;
+  height: 38px;
+  border-radius: 100%;
+}
