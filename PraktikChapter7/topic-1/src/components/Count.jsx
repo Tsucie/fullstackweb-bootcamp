@@ -6,17 +6,24 @@ function Count(props) {
 
   return (
     <>
-      <img src={logo} className="app-logo" alt="Logo" />
+      <img src={logo} className="App-logo" alt="logo" />
+
       <div>
         <h4>Total Click</h4>
         <h1>{count}</h1>
-        <Button variant="primary" onClick={handleClick} style={{
-          marginTop: "20px",
-          marginBottom: "20px",
-        }}>
+        <Button
+          variant="primary"
+          onClick={handleClick}
+          // Inline Style
+          style={{
+            marginTop: "20px",
+            marginBottom: "20px",
+          }}
+        >
           Click
         </Button>
       </div>
+
       <div>{children}</div>
     </>
   );

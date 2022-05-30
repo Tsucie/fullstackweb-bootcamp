@@ -10,16 +10,16 @@ import Count from './components/Count';
 function App() {
   /* Declare state variable */
   const [count, setCount] = useState(0);
-  const [logoDisplay, setLogoDisplay] = useState(logo);
+  const [logoDiplayed, setLogoDisplayed] = useState(logo);
 
   const handleClick = () => {
-    let newCount = count++;
+    let newCount = count + 1;
     setCount(newCount); // Set new value to state variable
 
     if (count % 2 === 0) {
-      setLogoDisplay(logo); // Set new value to state variable
+      setLogoDisplayed(logo); // Set new value to state variable
     } else {
-      setLogoDisplay("https://placeimg.com/640/480/any");
+      setLogoDisplayed("https://placeimg.com/640/480/any");
     }
   };
 
@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Count count={count} logo={logoDisplay} handleClick={handleClick}>
+        <Count count={count} logo={logoDiplayed} handleClick={handleClick}>
           <h1>Hello World</h1>
           <p>lorem ipsum dolor sit amet.</p>
         </Count>
